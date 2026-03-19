@@ -47,10 +47,14 @@ Prioritisation and scheduling depend on the theme author and product roadmap.
 
 ---
 
-## Commercial support / ThemeForest
+## Dedicated support (RoseaThemes)
 
-If you purchased the theme on a marketplace, check the **vendor’s support policy**. Official support for RoseaThemes themes: **[support.rosea.io](https://support.rosea.io/)**. GitHub Issues here is an **additional public channel** for the community.
+**[support.rosea.io](https://support.rosea.io/)** is the official **RoseaThemes Support Center** for BAZIS and other Moodle themes from Rosea.io.
 
----
+Use it when you need:
 
-**License:** The BAZIS theme is GPL v3 or later. This repository is only a meta tracker for issues.
+- **One-to-one help** from the author (bugs, setup, customisation guidance)  
+- **Envato / ThemeForest purchase validation** — sign in with Envato to open a ticket  
+- **Pre-sale questions** or contact after support expired — choose category **“General (without purchase validation)”**
+
+**GitHub Issues in this repo** stay a **public** space for community bug reports and feature ideas; they are not a replacement for the support portal and do not include purchase verification or SLA.
