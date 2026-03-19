@@ -1,64 +1,4 @@
-# BAZIS — publiczny tracker zgłoszeń
-
-To repozytorium **nie zawiera kodu motywu**. Służy wyłącznie do **zgłaszania błędów** i **propozycji funkcji** dla motywu **BAZIS** dla Moodle.
-
-| | |
-|---|---|
-| **Kod motywu** | [github.com/mczaja/moodle-bazis-theme](https://github.com/mczaja/moodle-bazis-theme) |
-| **Dokumentacja** | [rosea.gitbook.io/bazistheme](https://rosea.gitbook.io/bazistheme) |
-| **Zgłoszenia** | [Issues](https://github.com/mczaja/moodle-bazis-theme-issues/issues) w **tym** repozytorium |
-
----
-
-## Jak zgłosić błąd
-
-1. Sprawdź, czy [podobny issue](https://github.com/mczaja/moodle-bazis-theme-issues/issues) już nie istnieje.
-2. Otwórz **New issue** i opisz problem.
-3. Dołącz informacje poniżej — bez nich trudniej o szybką odpowiedź.
-
-### Obowiązkowo (minimum)
-
-- **Wersja Moodle** (np. 5.1.x) i **krótko**: czy to produkcja czy środowisko testowe  
-- **Wersja motywu BAZIS** — z *Site administration → Appearance → Themes → BAZIS* lub z pliku `theme/bazis/version.php` (`$plugin->release` / `$plugin->version`)  
-- **Wersja PHP**  
-- **Przeglądarka** (np. Chrome 131) i czy problem występuje w trybie prywatnym  
-- **Kroki odtworzenia** — numerowana lista: co kliknąć / co ustawić, żeby błąd wrócił  
-- **Co się dzieje** vs **co oczekujesz**
-
-### Bardzo pomaga
-
-- Zrzut ekranu lub krótki film (bez danych osobowych użytkowników)  
-- Czy błąd pojawia się przy **domyślnym motywie Boost** (jeśli dotyczy UI Moodle, nie tylko BAZIS)  
-- Komunikat z konsoli przeglądarki (F12 → Console) przy błędach JS  
-- Fragment loga PHP (bez haseł, tokenów, pełnych URL-i z kluczami)
-
-### Czego nie umieszczać w issue
-
-- haseł, kluczy API, pełnych kopii bazy  
-- danych osobowych uczestników kursów — anonimizuj lub zamazuj
-
----
-
-## Propozycje funkcji (feature requests)
-
-Opisz **problem użytkownika** (po co to), nie tylko „dodaj przycisk X”. Jeśli masz mockup lub przykład z innej strony — dołącz.  
-Ocena priorytetów i harmonogram zależą od autora motywu i rozwoju produktu.
-
----
-
-## Wsparcie komercyjne / licencja ThemeForest
-
-Jeśli kupiłeś motyw na marketplace, **sprawdź regulamin wsparcia** u sprzedawcy — część zgłoszeń może być obsługiwana przez **oficjalny system ticketów** (np. Ticksy), a GitHub Issues służy jako **dodatkowy, publiczny** kanał dla społeczności.
-
----
-
-## Język zgłoszeń
-
-Możesz pisać **po polsku lub po angielsku**. Odpowiedzi mogą być w jednym z tych języków.
-
----
-
-# BAZIS — public issue tracker (English)
+# BAZIS — public issue tracker
 
 This repository **does not contain theme source code**. Use it only for **bug reports** and **feature requests** for the **BAZIS** Moodle theme.
 
@@ -66,19 +6,50 @@ This repository **does not contain theme source code**. Use it only for **bug re
 |---|---|
 | **Theme source** | [github.com/mczaja/moodle-bazis-theme](https://github.com/mczaja/moodle-bazis-theme) |
 | **Documentation** | [rosea.gitbook.io/bazistheme](https://rosea.gitbook.io/bazistheme) |
-| **Issues** | [Issues](https://github.com/mczaja/moodle-bazis-theme-issues/issues) **in this repo** |
-
-### Bug reports — please include
-
-- Moodle version, BAZIS theme version (`version.php`), PHP version  
-- Browser and steps to reproduce  
-- Expected vs actual behaviour  
-- Screenshots (no personal data) if relevant  
-
-### Do not post
-
-Passwords, API keys, full database dumps, or identifiable personal data.
+| **Issues** | [Issues in this repository](https://github.com/mczaja/moodle-bazis-theme-issues/issues) |
 
 ---
 
-**License:** The BAZIS theme is GPL v3+; this issues repo is a meta/project tracker only.
+## How to report a bug
+
+1. Search [existing issues](https://github.com/mczaja/moodle-bazis-theme-issues/issues) — it may already be reported.
+2. Open **New issue** (use the **Bug report** template if you can).
+3. Include the information below — without it, fixes take longer.
+
+### Required (minimum)
+
+- **Moodle version** (e.g. 5.1.x) and whether this is **production** or a **test** site  
+- **BAZIS theme version** — from *Site administration → Appearance → Themes → BAZIS* or `theme/bazis/version.php` (`$plugin->release` / `$plugin->version`)  
+- **PHP version**  
+- **Browser** (e.g. Chrome 131) and whether you tested in a **private/incognito** window  
+- **Steps to reproduce** — numbered list: what to click or configure so the bug comes back  
+- **What happens** vs **what you expected**
+
+### Helpful extras
+
+- Screenshot or short screen recording (no personal data)  
+- Whether the same happens with the **Boost** theme (for general Moodle UI vs BAZIS-specific issues)  
+- Browser console errors (F12 → Console) for JavaScript problems  
+- Relevant PHP log excerpts (no passwords, tokens, or URLs with secret keys)
+
+### Do not post in issues
+
+- Passwords, API keys, or full database dumps  
+- Personally identifiable data about learners — redact or anonymise
+
+---
+
+## Feature requests
+
+Describe the **user problem** (why you need this), not only “add button X”. Mockups or examples from other sites are welcome.  
+Prioritisation and scheduling depend on the theme author and product roadmap.
+
+---
+
+## Commercial support / ThemeForest
+
+If you purchased the theme on a marketplace, check the **vendor’s support policy** — some requests may go through an **official ticket system** (e.g. Ticksy). GitHub Issues here is an **additional public channel** for the community.
+
+---
+
+**License:** The BAZIS theme is GPL v3 or later. This repository is only a meta tracker for issues.
