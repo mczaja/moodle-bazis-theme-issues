@@ -5,7 +5,7 @@ This repository **does not contain theme source code**. Use it only for **bug re
 | | |
 |---|---|
 | **Theme source** | [github.com/mczaja/moodle-bazis-theme](https://github.com/mczaja/moodle-bazis-theme) |
-| **Documentation** | [rosea.gitbook.io/bazistheme](https://rosea.gitbook.io/bazistheme) |
+| **Documentation** | [doc.rosea.io/bazis](https://doc.rosea.io/bazis/) |
 | **Issues** | [Issues in this repository](https://github.com/mczaja/moodle-bazis-theme-issues/issues) |
 
 ---

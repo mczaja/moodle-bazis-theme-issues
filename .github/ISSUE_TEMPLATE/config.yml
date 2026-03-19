@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Documentation (GitBook)
-    url: https://rosea.gitbook.io/bazistheme
+    url: https://doc.rosea.io/bazis/
     about: Official BAZIS theme documentation
   - name: Theme source code
     url: https://github.com/mczaja/moodle-bazis-theme
