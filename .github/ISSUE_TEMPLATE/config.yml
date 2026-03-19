@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation (GitBook)
+    url: https://rosea.gitbook.io/bazistheme
+    about: Official BAZIS theme documentation
+  - name: Theme source code
+    url: https://github.com/mczaja/moodle-bazis-theme
+    about: Main repository with theme files (not for filing issues there)

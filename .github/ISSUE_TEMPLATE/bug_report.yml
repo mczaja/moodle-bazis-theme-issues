@@ -1,0 +1,82 @@
+name: Bug report
+description: Report a problem with the BAZIS Moodle theme
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you start:** search [existing issues](https://github.com/mczaja/moodle-bazis-theme-issues/issues) — your bug may already be reported.
+        Do **not** post passwords, API keys, or personal data.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short description
+      description: What goes wrong, in one or two sentences?
+    validations:
+      required: true
+
+  - type: input
+    id: moodle
+    attributes:
+      label: Moodle version
+      placeholder: e.g. 5.1.2
+    validations:
+      required: true
+
+  - type: input
+    id: theme
+    attributes:
+      label: BAZIS theme version
+      description: From theme settings or theme/bazis/version.php ($plugin->release)
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: php
+    attributes:
+      label: PHP version
+      placeholder: e.g. 8.2.15
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser (and if tested in private/incognito)
+      placeholder: e.g. Chrome 131, also in private window — same
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered list — clicks, settings, URL pattern (no secret tokens).
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context (optional)
+      description: Screenshots, JS console errors, whether Boost theme shows the same issue, etc.

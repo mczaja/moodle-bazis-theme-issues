@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an improvement or new capability for BAZIS
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the **user problem** (why you need this), not only the solution.  
+        Check [existing issues](https://github.com/mczaja/moodle-bazis-theme-issues/issues) first.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or goal
+      description: What is hard or missing today? Who benefits?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution (optional)
+      description: Your idea — UI mockups or examples from other sites welcome.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered (optional)
+      description: Workarounds, other themes, or Moodle core behaviour.
+
+  - type: input
+    id: moodle
+    attributes:
+      label: Moodle version you use (optional)
+      placeholder: e.g. 5.1.x
