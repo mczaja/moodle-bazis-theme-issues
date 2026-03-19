@@ -48,7 +48,7 @@ Prioritisation and scheduling depend on the theme author and product roadmap.
 
 ## Commercial support / ThemeForest
 
-If you purchased the theme on a marketplace, check the **vendor’s support policy** — some requests may go through an **official ticket system** (e.g. Ticksy). GitHub Issues here is an **additional public channel** for the community.
+If you purchased the theme on a marketplace, check the **vendor’s support policy**. Official support for RoseaThemes themes: **[support.rosea.io](https://support.rosea.io/)**. GitHub Issues here is an **additional public channel** for the community.
 
 ---
 
